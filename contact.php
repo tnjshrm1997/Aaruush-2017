@@ -92,7 +92,7 @@ form div{
 </div>
          <ul>
     <li><img src="logo.png" style="width:40px; margin-top:12px; margin-left:8px;"></li>
-    <li style="font-family:xirod;"><a href="index.html">AARUUSH'17</a></li>
+    <li style="font-family:Xirod-Regular;"><a href="index.html">AARUUSH'17</a></li>
   <li><a href="aboutus.html">About Us</a></li>
   <li><a href="highlights/highlights.html">Highlights</a></li>
   <li><a href="work/work.html">Workshops</a></li>
@@ -167,7 +167,7 @@ form div{
     
     if (isset($_POST['sub']))
     {
-        $con = mysqli_connect('localhost','aaruush','aaruush17','contactus') or die("Error: ".mysqli_connect_error());
+        $con = mysqli_connect('localhost','aaruush2017','xyRhtabnWTvbE28w','aaruush2017') or die("Error: ".mysqli_connect_error());
         $name = $_POST['name'];
         $femail = $_POST['email'];
         $phone = $_POST['phone'];

@@ -8,16 +8,19 @@
 
 .grid li {
 	display: inline-block;
-	width: 450px;
+	width: 480px;
 	margin: 0;
-	padding: 20px;
+	padding: 40px;
 	text-align: left;
 	position: relative;
+	padding-bottom: 0;
+	padding-left: 60px;
 }
 
 .grid figure {
 	margin: 0;
 	position: relative;
+	border: 5px solid white;
 }
 
 .grid figure img {
@@ -48,7 +51,7 @@
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #ed4e6e;
+	background: #288a77;
 	color: #fff;
 }
 

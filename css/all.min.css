@@ -99,5 +99,19 @@ body{min-width:1000px;}
 #txt_below{background:url(../img/bg_arrow.png) no-repeat;height:368px;width:50px;margin:0px auto;padding-top:39px;top:40px;position:relative;}
 #txt_below span{width:50px;}
 #txt_k{font-size:31px;font-weight:bold; color: #f9a980;}
-@media screen and (max-width:1000px){body{overflow-x:hidden;}
+@media screen and (max-width:1000px){
+ body {
+	overflow-x: hidden;
 }
+	#welcomesign {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	#countdown {
+		left:50%;
+	}
+	#welcometerrarians{
+		left:5%;
+	}
+}
+

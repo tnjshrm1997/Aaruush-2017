@@ -24,25 +24,25 @@
 		minutes = (String(minutes).length ==1) ? '0'+minutes : minutes;
 		seconds = (String(seconds).length ==1) ? '0'+seconds : seconds;
 		
-		this_sel.find('.days').html(days+'<p style = "font-size: 12px;">Days</p>');
-		this_sel.find('.hours').html(hours+'<p style = "font-size: 12px;">Hours</p>');
-		this_sel.find('.minutes').html(minutes+'<p style = "font-size: 12px;">Minutes</p>');
-		this_sel.find('.seconds').html(seconds+'<p style = "font-size: 12px;">Seconds</p>');
+		this_sel.find('.days').html(days+'<p style = "font-size: 12px; font-family:arial;"><b>Days</b></p>');
+		this_sel.find('.hours').html(hours+'<p style = "font-size: 12px; font-family:arial;"><b>Hours</b></p>');
+		this_sel.find('.minutes').html(minutes+'<p style = "font-size: 12px; font-family:arial;"><b>Minutes</b></p>');
+		this_sel.find('.seconds').html(seconds+'<p style = "font-size: 12px; font-family:arial;"><b>Seconds</b></p>');
 
 		if(days==01){
-			this_sel.find('.days').html(days+'<p style = "font-size: 12px;">Day</p>');
+			this_sel.find('.days').html(days+'<p style = "font-size: 12px; font-family:arial;"><b>Day</b></p>');
 		}
 
 		if(hours==01){
-			this_sel.find('.days').html(hours+'<p style = "font-size: 12px;">Hour</p>');
+			this_sel.find('.days').html(hours+'<p style = "font-size: 12px; font-family:arial;"><b>Hour</b></p>');
 		}
 
 		if(minutes==01){
-			this_sel.find('.days').html(minutes+'<p style = "font-size: 12px;">Minute</p>');
+			this_sel.find('.days').html(minutes+'<p style = "font-size: 12px; font-family:arial;"><b>Minute</b></p>');
 		}
 
 		if(seconds==01){
-			this_sel.find('.seconds').html(seconds+'<p style = "font-size: 12px;">Second</p>');
+			this_sel.find('.seconds').html(seconds+'<p style = "font-size: 12px; font-family:arial;"><b>Second</b></p>');
 		}
 
 
