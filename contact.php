@@ -7,6 +7,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="css/preloader.css" rel="stylesheet" type="text/css">
   <link rel = "stylesheet" type = "text/css" href = "css/montserrat.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/style3.css">
+      <link rel = "stylesheet" type = "text/css" href = "css/hover.css">
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <script src="js/jquery.preloader.min.js"></script>
 <style type="text/css">
@@ -110,34 +112,51 @@ form div{
     </div>
   </li>
   <li style="float:right;"><a href="#" style="background-color:#2c78a2;">Contact Us</a></li>
-</ul> 
-        <h2 align = "middle"><b>Contact Us</b></h2><br><br><br>
-        <form method= "post" action = "contact.php">
-            <div class = "row">
-            <div class = "col-lg-offset-1 col-lg-2">
-                <input type = "text" class = "form-control" name = "name" placeholder = "Name" required>
-            </div>
-            <div class = "col-lg-offset-1 col-lg-2">
-                <input type = "text" class = "form-control" name = "email" placeholder = "Email" id= "email" required >
-            </div>
-            <div class = "col-lg-offset-1 col-lg-2">
-                <input type = "text" class = "form-control" name = "phone" placeholder = "Phone Number" required>
-            </div>
-            <br><br><br>
-            <div class = "col-lg-offset-1 col-lg-9">
-                <textarea class = "form-control" name = "comment" placeholder = "Comment" rows = "5" required></textarea>
-            </div>
-            </div><br>
-            <div class = "row">
-                <div class = "col-lg-offset-9">
-                    <button class = "btn btn-default" name = "sub" value = "submit" type = "submit">Submit</button>
-                </div>
-            </div>
-        </form><hr>
+</ul>
+<section class="register">
+	<div class="register-full">
+
+		<div class="register-right">
+			<div class="register-in">
+				<h2>Contact Us</h2>
+				<div class="register-form">
+					<form action="register.php" method="post">
+						<div class="fields-grid">
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" name="name" required>
+								<label>Name</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="number" name="Phone" required="">
+								<label>Phone Number</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="email" name="email" required="">
+								<label>Email ID</label>
+								<span></span>
+							</div>
+              <div class="styled-input agile-styled-input-top">
+								<input type="text" name="comment" required>
+								<label>Your Query</label>
+								<span></span>
+							</div>
+							<div class="clear"> </div>
+							 </div>
+						<input type="submit" class="hvr-wobble-horizontal" value="Submit" name="sub">
+					</form>
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>
+	<div class="clear"> </div>
+	</div>
+</section>
 
         <h4 style="text-align:center;">For further details, contact:<br><br><span style="font-size:16px;">Nishanth Buggineni: +91 96005 79880 | Pranav Dhingra: +91 95661 61014<br><br>E-Mail: csi@aaruush.net</span></h4><br>
         <div id="map"></div>
-
+	<img src = "ac1.png" width="300px" align="right">
         <script>
     $(window).preloader({
         delay: 1500
@@ -164,7 +183,7 @@ form div{
 </html>
 
 <?php
-    
+
     if (isset($_POST['sub']))
     {
         $con = mysqli_connect('localhost','aaruush2017','xyRhtabnWTvbE28w','aaruush2017') or die("Error: ".mysqli_connect_error());
@@ -177,12 +196,12 @@ form div{
         if ($query)
         {
            echo "<script>alert ('Your feedback is successfully registered. Thank You!!')</script>";
-           
+          header('location:confirmation.php');
            exit();
         }
         else {
            echo "<script>alert ('Please try again. Thank You!!')</script>";
-           
+
            exit();
         }
     }
