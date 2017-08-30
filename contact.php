@@ -98,7 +98,7 @@ form div{
     <li><img src="logo.png" style="width:40px; margin-top:12px; margin-left:8px;"></li>
     <li style="font-family:Xirod-Regular;"><a href="index.html">AARUUSH'17</a></li>
   <li><a href="aboutus.html">About Us</a></li>
-  <li><a href="highlights/highlights.html">Highlights</a></li>
+  <li><a href="highlights.html">Highlights</a></li>
   <li><a href="work/work.html">Workshops</a></li>
   <li><a  href="champ/champ.html">Championships</a></li>
   <li><a href="spon/spon.html">Sponsors</a></li>

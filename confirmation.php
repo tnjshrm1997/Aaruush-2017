@@ -107,24 +107,24 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 	<ul>
 	 <li><img src="logo.png" style="width:40px; margin-top:12px; margin-left:8px;"></li>
 	 <li style="font-family:xirod;"><a href="../index.html">AARUUSH'17</a></li>
-	<li><a href="../aboutus.html">About Us</a></li>
-	<li><a href="../highlights/highlights.html">Highlights</a></li>
-	<li><a href="../work/work.html">Workshops</a></li>
-	<li><a shref="../champ/champ.html">Championships</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="highlights.html">Highlights</a></li>
+	<li><a href="work/work.html">Workshops</a></li>
+	<li><a shref="champ/champ.html">Championships</a></li>
 	<li><a href="spon/spon.html" >Sponsors</a></li>
-	 <li><a href="../gallery/gallery.html">Gallery</a></li>
+	 <li><a href="gallery/gallery.html">Gallery</a></li>
 	<li class="dropdown">
 	 <a href="javascript:void(0)" class="dropbtn">More <i class="down" style=" border: solid white; border-width: 0 3px 3px 0; display: inline-block; padding: 3px; margin-bottom:2px;"></i></a>
 	 <div class="dropdown-content">
 		 <a href="swastika.html">Swastika</a>
 	<a href="tsummit/index.html" target="_blank">T-Summit</a>
-		 <a href="#">Events</a>
+		 <a href="events.html">Events</a>
 		 <a href="#">Ambassador</a>
-		 <a href="#">Initiatives</a>
+		 <a href="initiatives/initiatives.html">Initiatives</a>
 	 </div>
 	</li>
 
-	<li style="float:right;"><a href="../contact.php">Contact Us</a></li>
+	<li style="float:right;"><a href="contact.php">Contact Us</a></li>
 	</ul>
 <!-- section -->
 <section class="register">
