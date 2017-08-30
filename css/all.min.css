@@ -112,6 +112,9 @@ body{min-width:1000px;}
 	}
 	#welcometerrarians{
 		left:5%;
+
+	}
+	.fish {
+	display: none;
 	}
 }
-
