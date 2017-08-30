@@ -1,6 +1,8 @@
 <html>
     <head>
         <title>Contact Us</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/aaruush_title_logo.ico" />
+
    <link href="css/bootstrap.min.css" rel="stylesheet">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
@@ -148,15 +150,17 @@ form div{
 					</form>
 				</div>
 			</div>
+
+
 			<div class="clear"> </div>
 		</div>
 	<div class="clear"> </div>
 	</div>
 </section>
 
-        <h4 style="text-align:center;">For further details, contact:<br><br><span style="font-size:16px;">Nishanth Buggineni: +91 96005 79880 | Pranav Dhingra: +91 95661 61014<br><br>E-Mail: csi@aaruush.net</span></h4><br>
+        <h4 style="text-align:center;color:white;">For further details, contact:<br><br><span style="font-size:16px;">Nishanth Buggineni: +91 96005 79880 | Pranav Dhingra: +91 95661 61014<br><br>E-Mail: csi@aaruush.net</span></h4><br>
+<img src = "ac1.png" width="300px" align="right">
         <div id="map"></div>
-	<img src = "ac1.png" width="300px" align="right">
         <script>
     $(window).preloader({
         delay: 1500
