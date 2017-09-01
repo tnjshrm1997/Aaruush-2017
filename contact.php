@@ -122,7 +122,7 @@ form div{
 			<div class="register-in">
 				<h2>Contact Us</h2>
 				<div class="register-form">
-					<form action="register.php" method="post">
+					<form action="" method="post">
 						<div class="fields-grid">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" name="name" required>
