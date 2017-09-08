@@ -159,7 +159,7 @@ form div{
 </section>
 
         <h4 style="text-align:center;color:white;">For further details, contact:<br><br><span style="font-size:16px;">Nishanth Buggineni: +91 96005 79880 | Pranav Dhingra: +91 95661 61014<br><br>E-Mail: csi@aaruush.net</span></h4><br>
-<img src = "ac1.png" width="300px" align="right">
+  <a href="credits.html"><img src = "ac1.png" width="300px" align="right"></a>
         <div id="map"></div>
         <script>
     $(window).preloader({
