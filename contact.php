@@ -195,6 +195,14 @@ form div{
         $femail = $_POST['email'];
         $phone = $_POST['phone'];
         $comment = $_POST['comment'];
+        // the message
+        $msg = "
+	Name: ".$name."
+	Email: ".$femail."
+	Phone: ".$phone."
+	Query: ".$comment;
+	mail("tech.aaruushcreatives@gmail.com","AARUUSH QUERY",$msg);
+
         echo $insert = "insert into contact (`name`, `email`,`phone`,`comment`) values ('$name', '$femail', '$phone','$comment')";
         $query = mysqli_query($con, $insert);
         if ($query)
