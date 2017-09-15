@@ -69,7 +69,7 @@ body{min-width:1000px;}
 #footer{height:500px;}
 #depth1{margin-top: -640px;}
 #welcomesign{margin-top:590px; margin-left:-50px;}
-#welcomesign{background:url(../img/sign_atlantis.png) no-repeat 73px top;overflow:hidden;display:block;height:520px;}
+#welcomesign{background:url(../img/sign_atlantis.png) no-repeat 73px top;overflow:hidden;display:block;height:600px;}
 #welcometerrarians{background:url(../img/sign_welcome.png) no-repeat 95px top;overflow:hidden;display:block;height:612px;margin-top:250px;margin-left:30px; }
 #footer{display:block;background:url(../img/bg_ground-lg.jpg) repeat-x center 437px;}
 #footer .container{margin-top:100px; background:url(../img/bubblecity.png) no-repeat center 0px;}
