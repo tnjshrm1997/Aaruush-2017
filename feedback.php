@@ -114,7 +114,7 @@ li.dropdown {
 			<div class="register-in">
 				<h2>Your Feedback</h2>
 				<div class="register-form">
-					<form action="register.php" method="post">
+					<form action="" method="post">
 						<div class="fields-grid">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" name="name" placeholder="Name(Optional)" >
