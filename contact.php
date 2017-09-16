@@ -196,7 +196,9 @@ form div{
         $phone = $_POST['phone'];
         $comment = $_POST['comment'];
         // the message
-    
+	if($name==''){
+		$name='None';
+	}    
 
        $insert = "insert into contact (`name`, `email`,`phone`,`comment`) values ('$name', '$femail', '$phone','$comment')";
         $query = mysqli_query($con, $insert);
