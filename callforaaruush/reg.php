@@ -10,7 +10,7 @@ header('Cache-Control: must-revalidate');
 header('Pragma: public');
 //header('Location: index.html');
 
-  $conn = mysqli_connect('localhost','aaruushcreatives','aaruush17','campusambsdr') or die ("Connection Error".mysqli_connect_error());
+  $conn = mysqli_connect('localhost','aaruush2017','xyRhtabnWTvbE28w','aaruush2017') or die("Error: ".mysqli_connect_error());
  $name=$_POST['name'];
 $regNumber=$_POST['regNumber'];
 $primaryPhone = $_POST['primaryPhone'];
