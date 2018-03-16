@@ -1,4 +1,4 @@
-var committee = ["Corporate Strategy and Implementation(CSI)","Operation and Resource Management(ORM)","Public Relations(PR)","Creatives","Finance","Deco and Arts","Quality Assurance(QA)","Sponsorship and Marketing","Highlights","Workshops","Championships","Initiatives","Challenges","Envision","Robogyan","Yuddhame","Online","Magefficie","Fundaz","Vimanaz","Konstruktion","Architecture","Bluebook","Praesentatio","Machination","Electrizite","Digital Design","X-Zone"];
+var committee = ["Corporate Strategy and Implementation(CSI)","Operation and Resource Management(ORM)","Public Relations(PR)","Creatives","Finance","Deco and Arts","Quality Assurance(QA)","Sponsorship and Marketing","Highlights","Workshops","Championships","Initiatives","Challenges","Robogyan","Yuddhame","Online","Magefficie","Fundaz","Vimanaz","Konstruktion","Architecture","Bluebook","Praesentatio","Machination","Electrizite","Digital Design","X-Zone","TEAM ENVISION"];
 
 //document.addEventListener("DOMContentLoaded", addCountries());
 document.addEventListener("DOMContentLoaded", addCommittees());
