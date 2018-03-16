@@ -10,33 +10,33 @@ header('Cache-Control: must-revalidate');
 header('Pragma: public');
 //header('Location: index.html');
 
-  $conn = mysqli_connect('localhost','aaruush2017','xyRhtabnWTvbE28w','aaruush2017') or die("Error: ".mysqli_connect_error());
+  $conn = mysqli_connect('localhost','aaruushcreatives','aaruush17','campusambsdr') or die ("Connection Error".mysqli_connect_error());
  $name=$_POST['name'];
-$regNumber=$_POST['regNumber'];
-$primaryPhone = $_POST['primaryPhone'];
-$email = $_POST['email'];
- $committee1= $_POST['committee1'];
-$committee2= $_POST['committee2'];
-$committee3= $_POST['committee3'];
+$regNumber=htmlentities($_POST['regNumber']);
+$primaryPhone = htmlentities($_POST['primaryPhone']);
+$email = htmlentities($_POST['email']);
+ $committee1= htmlentities($_POST['committee1']);
+$committee2= htmlentities($_POST['committee2']);
+$committee3= htmlentities($_POST['committee3']);
 
-$skill= $_POST['skill'];
-$academics= $_POST['academics'];
-$leader= $_POST['leader'];
-$instance= $_POST['instance'];
-$strengths= $_POST['strengths'];
-$work= $_POST['work'];
-$schedule= $_POST['schedule'];
-$juniors= $_POST['juniors'];
-$criricism= $_POST['criricism'];
-$quality= $_POST['quality'];
-$strike= $_POST['strike'];
-$unexpected= $_POST['unexpected'];
-$participants= $_POST['participants'];
-$pertaining= $_POST['pertaining'];
-$roundwise= $_POST['roundwise'];
-$individual= $_POST['individual'];
-$team_event= $_POST['team_event'];
- $incorporate= $_POST['incorporate'];
+$skill= htmlentities($_POST['skill']);
+$academics= htmlentities($_POST['academics']);
+$leader= htmlentities($_POST['leader']);
+$instance= htmlentities($_POST['instance']);
+$strengths= htmlentities($_POST['strengths']);
+$work= htmlentities($_POST['work']);
+$schedule= htmlentities($_POST['schedule']);
+$juniors= htmlentities($_POST['juniors']);
+$criricism= htmlentities($_POST['criricism']);
+$quality= htmlentities($_POST['quality']);
+$strike= htmlentities($_POST['strike']);
+$unexpected= htmlentities($_POST['unexpected']);
+$participants= htmlentities($_POST['participants']);
+$pertaining= htmlentities($_POST['pertaining']);
+$roundwise= htmlentities($_POST['roundwise']);
+$individual= htmlentities($_POST['individual']);
+$team_event= htmlentities($_POST['team_event']);
+ $incorporate= htmlentities($_POST['incorporate']);
   $query = "INSERT INTO `registrations`(`name`, `reg_no`, `phone`, `email`, `committee1`,`committee2`,`committee3`, `que1`, `que2`, `que3`,
   `que4`, `que5`, `que6`, `que7`, `que8`, `que9`, `que10`, `que11`, `que12`, `que13`, `que14`, `que15`, `que16`,
   `que17`, `que18`) VALUES
